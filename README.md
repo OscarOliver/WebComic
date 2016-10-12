@@ -1,6 +1,8 @@
 # WebComic
 M9
 
+V001
+
 SiteMap:
  - Home (index.html)        Oscar
  - Shop (shop.html)         Aaron
