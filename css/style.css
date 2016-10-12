@@ -336,3 +336,11 @@ ul.menu li:hover ul {
     width:auto;
     padding:10px;
 }
+
+
+/*Shop*/
+
+#wrapper.shop-page{
+    background: url("../img/shop/bg.jpg") no-repeat;
+    background-size:cover;
+}
