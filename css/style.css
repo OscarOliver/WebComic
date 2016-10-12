@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    height:100%;
+}
+
+html,body { min-height: 100%;height:100%; }
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+
+/*HEADER*/
+#header{
+    background: #E64A19;
+    margin-bottom: 50px;
+}
+
+#header h1{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*CONTENT*/
+
+/*FOOTER*/
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+}
+
+div.container{
+    width: 100%;
+}
+
+div.columnThird{
+    width:33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.columnThird li{
+    list-style:none;
+    padding:5px;
+    margin-left: 10px;
+    padding:0px;
+    margin:0px;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.loc{
+    width: 50%;
+    margin:0 auto;
+}
+
+.loc p{
+    text-align: left;
+}
+
+.loc i{
+    padding-right:10px;
+    margin-bottom:5px;
+}
+
+.columnThird h3{
+    color: #E64A19;
+}
+
+.columnThird a{
+    color: white;
+    text-decoration: none;
+}
+
+p.copyright{
+    color: white;
+}
+
+.loc p, .loc i{
+    color: white;
+}
+/* MENU Horitzontal*/
+
+ul.menu a{
+    text-decoration: none;
+    display: block;     /* Per a que el link agafe l'espai del seu pare*/
+    padding:10px;
+    color: white;
+    width: 100px;
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: #333;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+ul.menu li:hover{
+    background: white;
+}
+ul.menu li:hover a{
+    color: #333;
+}
+
+ul.menu ul{
+    opacity: 0;
+    position: absolute;
+    left:0;
+    top:35px;
+    background: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: opacity 0.3s;
+    z-index:-5;
+}
+
+ul.menu ul li:hover{
+    background-color: #333;
+}
+
+ul.menu ul li:hover a{
+    color: white;
+}
+
+.submenu a{
+    color: #333;
+}
+
+ul.menu li:hover ul {
+    opacity: 1;
+    transition: opacity 0.3s;
+    z-index: 5;
+}
+
+.newsItem {
+
+}
+
+.newsItem img {
+    width: 20%;
+    min-width: 300px;
+    max-width: 500px;
+}
