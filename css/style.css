@@ -295,9 +295,44 @@ ul.menu li:hover ul {
     margin-bottom: 50px;
 }
 
-#contact .columnThird{
-    height:100px;
+#contact .columnThird {
+    height: 100px;
     vertical-align: middle;
     background-color: #333;
     color: white;
+}
+
+/*NEWS Page*/
+#newsPage{
+    width:100%;
+    padding:10px;
+    text-align: center;
+}
+#newsPage .event{
+    width:20%;
+    height:300px;
+    border-radius: 3px;
+    background:  #E64A19;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    display: inline-block;
+    margin:50px;
+    padding:10px;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.event span.date {
+    color: white;
+    top:0;
+    text-align: center;
+}
+
+.event span.body{
+    display: block;
+}
+
+.event img{
+    height:200px;
+    width:auto;
+    padding:10px;
 }
