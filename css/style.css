@@ -154,3 +154,48 @@ ul.menu li:hover ul {
     transition: all 0.3s;
     z-index: 5;
 }
+
+
+/*SITE MAP*/
+.sitemap{
+    padding: 0px;
+    maxgin: 0px;
+    text-align: center;
+}
+
+.sitemap ul{
+    padding-top: 50px;
+    width: 10%;
+    margin: 0 auto;
+    list-style: none;
+    text-align: left;
+}
+.sitemap p{
+    position: relative;
+    display: block;
+}
+.sitemap p:before{
+    position: absolute;
+    width: 30%;
+    height:2px;
+    color:  #E64A19;
+}
+
+.sitemap li a{
+    display: block;
+    padding:10px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.sitemap li a:hover::before{
+    color: #E64A19;
+}
+
+.sitemap a:before{
+    content: "\f0da";
+    font-family:FontAwesome;
+    position: absolute;
+    left:-10px;
+}
