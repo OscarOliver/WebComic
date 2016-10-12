@@ -2,11 +2,11 @@
 M9
 
 SiteMap:
- - Home (index.html)
- - Shop (shop.html)
-    - Comics (comics.html)
-    - Board games (boardgames.html)
- - News (news.html)
- - About as (about.html)
- - Contact (contact.html)
- - SiteMap (sitemap.html)
+ - Home (index.html)        Oscar
+ - Shop (shop.html)         Aaron
+    - Comics (comics.html)              Oscar
+    - Board games (boardgames.html)     Oscar
+ - News (news.html)         Aaron
+ - About as (about.html)    Oscar
+ - Contact (contact.html)   Aaron
+ - SiteMap (sitemap.html)   Aaron

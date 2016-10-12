@@ -133,7 +133,7 @@ ul.menu ul{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    transition: opacity 0.3s;
+    transition: all 0.3s;
     z-index:-5;
 }
 
@@ -151,7 +151,7 @@ ul.menu ul li:hover a{
 
 ul.menu li:hover ul {
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: all 0.3s;
     z-index: 5;
 }
 
