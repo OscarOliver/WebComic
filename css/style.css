@@ -217,6 +217,12 @@ ul.menu li:hover ul {
 }
 
 /*news*/
+#news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
 .newsItem {
     /*float: left;*/
@@ -225,13 +231,6 @@ ul.menu li:hover ul {
     min-width: 150px;
     max-width: 300px;
     /*border: 1px solid black;*/
-}
-
-#news {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 
 .newsItem h3 p {
@@ -277,4 +276,26 @@ ul.menu li:hover ul {
 .price {
     color: #666;
     font-weight: bold;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutItem {
+    margin: 20px;
+    width: 30%;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+.aboutItem div {
+    text-align: justify;
+}
+
+.aboutItem img{
+    width: 100%;
 }
