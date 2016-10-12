@@ -172,8 +172,8 @@ ul.menu li:hover ul {
 }
 
 .newsItem {
-    float: left;
-    margin: 50px;
+    /*float: left;*/
+    margin: 20px;
     width: 20%;
     min-width: 150px;
     max-width: 300px;
@@ -197,4 +197,37 @@ ul.menu li:hover ul {
 
 .after-box {
     clear: left;
+}
+
+.productsList table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.productsList img{
+    height: 100px;
+    text-align: center;
+}
+
+.productsList tr {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
+.productsList tr:hover {
+    background-color: #f5f5f5
+}
+
+.productsList td {
+    vertical-align: center;
+    padding: 10px 30px;
+}
+.productsList p {
+    text-align: justify;
+}
+
+.price {
+    color: #666;
+    font-weight: bold;
 }
