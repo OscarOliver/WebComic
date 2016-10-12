@@ -154,3 +154,13 @@ ul.menu li:hover ul {
     transition: opacity 0.3s;
     z-index: 5;
 }
+
+.newsItem {
+
+}
+
+.newsItem img {
+    width: 20%;
+    min-width: 300px;
+    max-width: 500px;
+}
