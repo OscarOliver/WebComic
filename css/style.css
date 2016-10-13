@@ -365,3 +365,41 @@ ul.menu li:hover ul {
     background: url("../img/shop/bg.jpg") no-repeat;
     background-size:cover;
 }
+
+.shop-page #content{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.shop-page #content a{
+    display: inline-block;
+    padding:20px;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    margin:20px;
+    background:  #E64A19;
+    color: white;
+
+}
+
+.shop-page #content a:before{
+    display: none;
+    content: "\f0da";
+    font-family:FontAwesome;
+    position: absolute;
+    left:1px;
+
+}
+
+
+.shop-page #content a:hover::before{
+    display: block;
+}
+
